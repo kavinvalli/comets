@@ -8,7 +8,7 @@ export default function Developer(props) {
   const [searchQuery, setSearchQuery] = useState("");
 
   return (
-    <div className="h-screen w-full bg-[#eee] text-black flex flex-col py-24 px-60">
+    <div className="h-screen w-full bg-[#eee] text-black flex flex-col py-24 px-12 md:px-60">
       <div className="w-full flex justify-between">
         <div className="font-semibold text-lg text-black">
           {props.user.name}
