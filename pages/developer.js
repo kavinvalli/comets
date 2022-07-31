@@ -1,4 +1,4 @@
-// import prisma from "../lib/prisma.ts";
+import prisma from "../lib/prisma.ts";
 import { useSession, getSession } from "next-auth/react";
 import { useState } from "react";
 import Link from "next/link";
