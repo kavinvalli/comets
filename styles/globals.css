@@ -1,26 +1,26 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&family=Raleway:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@font-face {
+  font-family: "Avenir";
+  src: url("fonts/avenir/AvenirLTStd-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: "SF Pro";
+  src: url("fonts/avenir/AvenirLTStd-Roman.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@font-face {
+  font-family: "SF Pro";
+  src: url("fonts/avenir/AvenirLTStd-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
 }
